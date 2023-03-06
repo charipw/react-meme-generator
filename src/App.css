@@ -1,23 +1,28 @@
 .App {
   font-family: "Karla", sans-serif;
+  margin: 0;
 }
 
-.header--container {
+.header {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
-  background-color: #672280;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   color: white;
+  padding: 20px;
 }
 
-.header--img {
-  width: 70px;
-  margin: 10px;
-  /* height: 30px; */
+.header--image {
+  height: 100%;
+  margin-right: 6px;
 }
 
-.header--left--side {
-  display: flex;
-  margin-right: 600px;
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
 }
