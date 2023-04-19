@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-import trollFace from "./images/troll-face.png";
+// import trollFace from "./images/troll-face.png";
 import Meme from "./components/Meme";
 
 function App() {
